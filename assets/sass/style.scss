@@ -1,5 +1,22 @@
+/* Colour scheme
+  Text black { #242424 }
+  White-not-white { smokewhite }
+  Light Blue { #3384B3 }
+  Navy Blue { #021F26 }
+  Light Grey { #EFF2E3 }
+  Camo Green { #788360 }
+  Light Beige { #D8CA9C }
+*/
+
 body {
   width: 80%;
   margin: auto;
   font-family: 'Barlow Condensed', sans-serif;
+  color: #242424;
+  background-color: ;
+
+  h1,h2,h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
 }

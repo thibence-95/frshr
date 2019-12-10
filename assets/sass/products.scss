@@ -1,0 +1,13 @@
+@import "libs/vars";
+@import "libs/functions";
+
+body {
+  section {
+    h2 {
+      color: color(navy-blue);
+    }
+    span {
+      color: color(light-blue);
+    }
+  }
+}

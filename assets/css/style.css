@@ -1,4 +1,6 @@
 /* Colour palette */
+/* Media queries */
+/* Links */
 /* Colour function */
 /* Colour scheme
   text(=black)
@@ -7,19 +9,39 @@
   navy-blue
   light-grey
 */
+/* Using media queries if need be
+  sm - smallest
+  s - small
+  m - medium
+  l - large
+  xl - xtra large
+
+  @media only screen and (max-width: 360px) {
+    body {
+      background-color: red;
+    }
+  }
+*/
 body {
   width: 80%;
   margin: auto;
   font-family: "Barlow Condensed", sans-serif;
+  color: #242424;
+  font-size: 100%;
+}
+body p, body input, body textarea {
+  font-size: 1.4em;
+}
+body a:link, body a:active, body a:visited {
+  color: #021F26;
+  text-decoration: none;
 }
 body h1, body h2, body h3 {
   font-weight: bold;
   text-transform: uppercase;
 }
-
-body, input, select, textarea {
-  color: #242424;
-  font-size: 1.3em;
+body header a:link, body header a:active, body header a:visited {
+  font-weight: bolder;
 }
 
 /*# sourceMappingURL=style.css.map */

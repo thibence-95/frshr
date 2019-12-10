@@ -1,0 +1,19 @@
+/* Colour palette */
+$colors: (
+  text: #242424,
+  white: #E8E8E8,
+  light-blue: #3384B3,
+  navy-blue: #021F26,
+  light-grey: #EFF2E3,
+);
+
+/* Media queries */
+$sm: "only screen and (max-width: 360px)";
+$s: "only screen and (min-width: 500px)";
+$m: "only screen and (min-width: 768px)";
+$l: "only screen and (min-width: 992px)";
+$xl: "only screen and (min-width: 1200px)";
+
+/* Links */
+$links: 'a:link, a:active, a:visited';
+

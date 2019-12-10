@@ -2,4 +2,4 @@
 
 [Pages link](#) - not working yet
 
-[Template to be used](https://html5up.net/spectral)
+[Font - Barlow Condensed](https://fonts.google.com/specimen/Barlow+Condensed)

@@ -3,10 +3,53 @@ html {
     overflow: hidden;
 }
 body {
-    width: 80%;
+    color: #fff;
     margin: auto;
+    padding: 0;
+    -webkit-perspective: 1px;
+    perspective: 1px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
     font-family: "Barlow Condensed", sans-serif;
 }
+#banner {
+    box-sizing: border-box;
+    min-height: 40vw;
+    padding: 30vw 0 5vw;
+    position: relative;
+    -webkit-transform-style: inherit;
+    transform-style: inherit;
+    width: 100vw;
+}
+#banner, #banner:before {
+    background: 50% 50% / cover;
+}
+#banner::before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    background-image: image("/images/mountain.jpeg");
+    background-size: cover;
+    -webkit-transform-origin: center center 0;
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh;
+}
+#banner * {
+    text-align: center;
+    margin: 0;
+    padding: 1em 0;
+}
+
 body h1, body h2, body h3 {
     font-weight: bold;
     text-transform: uppercase;
@@ -15,48 +58,4 @@ body h1, body h2, body h3 {
 body, input, select, textarea {
     color: #242424;
     font-size: 1.3em;
-}
-
-body {
-    line-height: 1;
-    background-image: image("../../images/mountain.jpeg");
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 100%;
-
-}
-.spotlight {
-    -moz-align-items: center;
-    -webkit-align-items: center;
-    -ms-align-items: center;
-    align-items: center;
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
-}
-
-.spotlight .image {
-    -moz-order: 1;
-    -webkit-order: 1;
-    -ms-order: 1;
-    order: 1;
-    border-radius: 0;
-    width: 40%;
-}
-
-.spotlight .image img {
-    border-radius: 0;
-    width: 100%;
-}
-
-.spotlight .content {
-    padding: 2em 4em 0.1em 4em ;
-    -moz-order: 2;
-    -webkit-order: 2;
-    -ms-order: 2;
-    order: 2;
-    max-width: 48em;
-    width: 60%;
 }

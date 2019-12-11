@@ -9,13 +9,13 @@
   light-grey
 */
 /* Media queries if need be
-  sm - smallest
-  s - small
-  m - medium
-  l - large
-  xl - xtra large
+  s - small devices
+  s2 - Small tablets
+  m - Medium devices like tablets
+  l - Laptops and smaller desktops
+  xl - Desktops
 
-  @media #{$sm} {
+  @media #{$s} {
     body {
       background-color:red;
     }

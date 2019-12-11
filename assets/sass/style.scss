@@ -1,5 +1,40 @@
+@import "libs/vars";
+@import "libs/functions";
+
+/* Colour scheme
+  text(=black)
+  white
+  light-blue
+  navy-blue
+  light-grey
+*/
+/* Media queries if need be
+  sm - smallest
+  s - small
+  m - medium
+  l - large
+  xl - xtra large
+
+  @media #{$sm} {
+    body {
+      background-color:red;
+    }
+  }
+
+*/
+
 body {
   width: 80%;
   margin: auto;
   font-family: 'Barlow Condensed', sans-serif;
+}
+
+  h1,h2,h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+body, input, select, textarea {
+  color: color(text);
+  font-size: 1.3em;
 }

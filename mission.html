@@ -11,13 +11,15 @@
     <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <!-- Don't forget to correctly link your files -->
-    <link href="assets/css/YOURSTYLESHEET.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/mission.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <nav class="navbar navbar-toggleable-md">
     <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-            <a href="#menu" class="navbar-toggler navbar-toggler-right"><span>Menu</span></a>
+            <a aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+               class="navbar-toggler navbar-toggler-right"
+               data-target="#navbarSupportedContent" data-toggle="collapse" href="#menu"><span>Menu</span></a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,24 +43,28 @@
             <h1>How it works</h1>
         </header>
         <img src="images/diagram.jpg">
-        <p>Our vape juice is extracted from the freshest air our planet has to offer.<br/>
+        <p id="explanation">Our vape juice is extracted from the freshest air our planet has to offer.
             To get this air, we work with local farmers at fair prices*.
-            Then our organically* farmed air gets converted to vape juice with science stuff.<br>
-            After we add our special ingredients™, our products are ready to inhale.<br>
-            Worried about your carbon footprint? Don't be. All the air that you breathe out can be recycled with our
+            Then our organically* farmed air gets converted to vape juice with science stuff and put into biodegradable*
+            packaging.
+            After we add our special ingredients™, our products are ready to inhale.
+            Worried about your carbon footprint? Don't be. All the air that you breathe out will be recycled with our
             Second Wind™ initiative.
         </p>
         <footer>
-
+            <small>
+                *Environmental and ethical certification from BuyOurShit Ltd.
+            </small>
         </footer>
     </div>
 </section>
 
-<section class="container w-75">
+<section class="container w-100" id="farmers">
+    <h1>Farmer testimonials</h1>
     <hr>
-    <div class="row my-5 align-middle" height="200">
+    <div class="row my-5 align-middle">
         <div class="col-md-5">
-            <img src="images/farmerexuma.jpg" class="img-responsive my-auto py-auto" width="175">
+            <img src="images/farmerexuma.jpg" class="img-responsive my-auto py-auto">
         </div>
         <div class="col-md-7">
             <div class="text-dark">
@@ -73,11 +79,11 @@
         </div>
     </div>
     <hr>
-    <div class="row my-5" height="200">
-        <div class="col-md-4 order-md-2">
-            <img src="images/farmeramazon.jpg" class="img-responsive my-auto py-auto" width="175">
+    <div class="row my-5">
+        <div class="col-md-5 order-md-2">
+            <img src="images/farmeramazon.jpg" class="img-responsive my-auto py-auto">
         </div>
-        <div class="col-md-8 order-md-1">
+        <div class="col-md-7 order-md-1">
             <div class="text-dark">
                 <h2>Angela Quispe<br>
                     <span class="text-muted">Iquitos, Peruvian Amazon</span></h2>
@@ -89,12 +95,12 @@
         </div>
     </div>
     <hr>
-    <div class="row my-5" height="200">
+    <div class="row my-5">
 
-        <div class="col-md-4">
-            <img src="images/farmerchina.jpg" class="img-responsive my-auto py-auto" width="175">
+        <div class="col-md-5">
+            <img src="images/farmerchina.jpg" class="img-responsive my-auto py-auto">
         </div>
-        <div class="col-md-8">
+        <div class="col-md-7">
             <div class="text-dark">
                 <h2>Zhang Youping<br>
                     <span class="text-muted">Shandong, China</span></h2>
@@ -106,11 +112,11 @@
         </div>
     </div>
     <hr>
-    <div class="row my-5" height="200">
-        <div class="col-md-4 order-md-2">
-            <img src="images/farmerfrance.jpg" class="img-responsive my-auto py-auto" width="175">
+    <div class="row my-5">
+        <div class="col-md-5 order-md-2">
+            <img src="images/farmerfrance.jpg" class="img-responsive my-auto py-auto">
         </div>
-        <div class="col-md-8 order-md-1">
+        <div class="col-md-7 order-md-1">
             <div class="text-dark">
                 <h2>Jean-Jacques-Pierre DuPont<br>
                     <span class="text-muted">Portet, France</span></h2>

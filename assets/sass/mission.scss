@@ -1,0 +1,22 @@
+@import "libs/vars";
+@import "libs/functions";
+
+body {
+  width: 90%;
+  margin: 0;
+  padding: 0;
+}
+#how {
+  text-align: center;
+}
+
+h1 {
+  padding: 20px 0px;
+  text-align: center;
+}
+
+#farmers {
+  img {
+    width: 787px;
+  }
+}

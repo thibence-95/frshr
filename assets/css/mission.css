@@ -9,21 +9,26 @@
 /* Colour function */
 body {
   width: 90%;
-  margin: 0;
+  margin: auto;
   padding: 0;
 }
-
-#how {
-  text-align: center;
+body section .img-fit {
+  width: 100%;
+  object-fit: cover;
+  height: 15em;
 }
-
-h1 {
-  padding: 20px 0px;
-  text-align: center;
+body section h2 {
+  color: #022f39;
 }
-
-#farmers img {
-  width: 787px;
+body section span {
+  color: #3384B3;
+}
+body section .green {
+  color: #2acb66;
+}
+body section li {
+  font-size: 80%;
+  margin-top: 1%;
 }
 
 /*# sourceMappingURL=mission.css.map */

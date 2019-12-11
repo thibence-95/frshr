@@ -3,20 +3,26 @@
 
 body {
   width: 90%;
-  margin: 0;
+  margin: auto;
   padding: 0;
-}
-#how {
-  text-align: center;
-}
-
-h1 {
-  padding: 20px 0px;
-  text-align: center;
-}
-
-#farmers {
-  img {
-    width: 787px;
+  section {
+    .img-fit {
+      width: 100%;
+      object-fit: cover;
+      height: 15em;
+    }
+    h2 {
+      color: color(navy-blue);
+    }
+    span {
+      color: color(light-blue);
+    }
+    .green {
+      color: color(fresh-green);
+    }
+    li {
+      font-size: 80%;
+      margin-top: 1%;
+    }
   }
 }

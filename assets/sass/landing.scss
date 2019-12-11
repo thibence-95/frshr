@@ -1,8 +1,14 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
 body {
   width: 80%;
   margin: auto;
   font-family: "Barlow Condensed", sans-serif;
 }
+
 body h1, body h2, body h3 {
   font-weight: bold;
   text-transform: uppercase;
@@ -20,74 +26,41 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100%;
-
 }
+
 .spotlight {
-  @include vendor('align-items', 'center');
-  @include vendor('display', 'flex');
-
-  .image {
-    @include vendor('order', '1');
-    border-radius: 0;
-    width: 40%;
-
-    img {
-      border-radius: 0;
-      width: 100%;
-    }
-  }
-
-  .content {
-    @include padding(2em, 4em);
-    @include vendor('order', '2');
-    max-width: 48em;
-    width: 60%;
-  }
-
-  &:nth-child(2n) {
-    @include vendor('flex-direction', 'row-reverse');
-  }
-
-  @for $i from 1 through _misc(max-spotlights) {
-    $j: 0.075 * $i;
-
-    &:nth-child(#{$i}) {
-      background-color: rgba(0,0,0, $j);
-    }
-  }
-
-  @include breakpoint('<=large') {
-    .image {
-      width: 45%;
-    }
-
-    .content {
-      width: 55%;
-    }
-  }
-
-  @include breakpoint('<=medium') {
-    display: block;
-
-    br {
-      display: none;
-    }
-
-    .image {
-      width: 100%;
-    }
-
-    .content {
-      @include padding(4em, 3em);
-      max-width: none;
-      text-align: center;
-      width: 100%;
-    }
-  }
-
-  @include breakpoint('<=small') {
-    .content {
-      @include padding(3em, 2em);
-    }
-  }
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
 }
+
+.spotlight .image {
+  -moz-order: 1;
+  -webkit-order: 1;
+  -ms-order: 1;
+  order: 1;
+  border-radius: 0;
+  width: 40%;
+}
+
+.spotlight .image img {
+  border-radius: 0;
+  width: 100%;
+}
+
+.spotlight .content {
+  padding: 2em 4em 0.1em 4em;
+  -moz-order: 2;
+  -webkit-order: 2;
+  -ms-order: 2;
+  order: 2;
+  max-width: 48em;
+  width: 60%;
+}
+
+/*# sourceMappingURL=landing.scss.map */

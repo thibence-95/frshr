@@ -31,4 +31,15 @@ body section li {
   margin-top: 1%;
 }
 
+#diagram {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+#diagram img {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+
 /*# sourceMappingURL=mission.css.map */

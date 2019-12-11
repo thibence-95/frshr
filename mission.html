@@ -14,8 +14,10 @@
     <link href="assets/css/mission.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<article id="page-wrapper">
+<!--wrapper prevents layout from being too wide-->
+<div id="page-wrapper">
     <header>
+        <!
         <nav class="navbar navbar-toggleable-md">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
@@ -45,7 +47,9 @@
             <header class="major">
                 <h1>How it works</h1>
             </header>
-            <img src="images/diagram.jpg" id="diagram">
+            <div id="diagram">
+                <img src="images/diagram.jpg" alt="circle of life">
+            </div>
             <p id="explanation">Our vape juice is extracted from the freshest air our planet has to offer.
                 To get this air, we work with local farmers at fair prices*.
                 Then our organically* farmed air gets converted to vape juice with science stuff and put into
@@ -62,6 +66,7 @@
                 </small>
             </footer>
         </div>
+        <hr>
     </section>
 
     <section class="container-fluid w-100">
@@ -75,11 +80,8 @@
                     <h2>Kevin Johnson<br>
                         <span class="text-muted">Great Exuma, Bahamas</span></h2>
                     <p class="lead">FRSHR graciously stepped in to rebuild our economy, in the wake of the great Fyre
-                        Festival recession of 2017.<br>
-                        They also gave each Exuma resident their own net to clean plastic from the ocean...very
-                        necessary
-                        with all the vape juice packag...I mean haha
-                        they’re completely biodegradable.</p>
+                        Festival recession of 2017. They also gave each Exuma resident their own net to clean plastic from the ocean...very
+                        necessary with all the vape juice packag...I mean haha they’re completely biodegradable.</p>
                 </div>
             </div>
         </article>
@@ -130,7 +132,7 @@
         </article>
     </section>
 
-
+    <hr>
     <footer id="footer">
         <ul class="icons">
             <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>

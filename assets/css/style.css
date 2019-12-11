@@ -1,5 +1,10 @@
 /* Colour palette */
-/* Media queries */
+/* Bootstrap's media queries */
+/* Small devices (smartphones) */
+/* Small tablets */
+/* Medium devices (tablets, 768px and up) */
+/* Large devices (Laptops and smaller desktops) */
+/* Extra large devices (Desktops 1281 and up) */
 /* Links */
 /* Colour function */
 /* Colour scheme
@@ -10,13 +15,13 @@
   light-grey
 */
 /* Media queries if need be
-  sm - smallest
-  s - small
-  m - medium
-  l - large
-  xl - xtra large
+  s - small devices
+  s2 - Small tablets
+  m - Medium devices like tablets
+  l - Laptops and smaller desktops
+  xl - Desktops
 
-  @media only screen and (max-width: 360px) {
+  @media (min-width: 320px) and (max-width: 480px) {
     body {
       background-color:red;
     }

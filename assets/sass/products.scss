@@ -3,11 +3,23 @@
 
 body {
   section {
+    .img-fit {
+      width: 100%;
+      object-fit: cover;
+      height: 15em;
+    }
     h2 {
       color: color(navy-blue);
     }
     span {
       color: color(light-blue);
+    }
+    .green {
+      color: color(fresh-green);
+    }
+    li {
+      font-size: 80%;
+      margin-top: 1%;
     }
   }
 }

@@ -9,7 +9,7 @@
   navy-blue
   light-grey
 */
-/* Using media queries if need be
+/* Media queries if need be
   sm - smallest
   s - small
   m - medium
@@ -18,30 +18,25 @@
 
   @media only screen and (max-width: 360px) {
     body {
-      background-color: red;
+      background-color:red;
     }
   }
+
 */
 body {
   width: 80%;
   margin: auto;
   font-family: "Barlow Condensed", sans-serif;
-  color: #242424;
-  font-size: 100%;
 }
-body p, body input, body textarea {
-  font-size: 1.4em;
-}
-body a:link, body a:active, body a:visited {
-  color: #021F26;
-  text-decoration: none;
-}
-body h1, body h2, body h3 {
+
+h1, h2, h3 {
   font-weight: bold;
   text-transform: uppercase;
 }
-body header a:link, body header a:active, body header a:visited {
-  font-weight: bolder;
+
+body, input, select, textarea {
+  color: #242424;
+  font-size: 1.3em;
 }
 
 /*# sourceMappingURL=style.css.map */

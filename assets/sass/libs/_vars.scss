@@ -3,16 +3,22 @@ $colors: (
   text: #242424,
   white: #E8E8E8,
   light-blue: #3384B3,
-  navy-blue: #021F26,
+  navy-blue: #022f39,
   light-grey: #EFF2E3,
+  fresh-green: #2acb66
 );
 
 /* Media queries */
-$sm: "only screen and (max-width: 360px)";
-$s: "only screen and (min-width: 500px)";
-$m: "only screen and (min-width: 768px)";
-$l: "only screen and (min-width: 992px)";
-$xl: "only screen and (min-width: 1200px)";
+/* Small devices (smartphones) */
+$s: "screen and (min-width: 320px) and (max-width: 480px)";
+/* Small tablets */
+$s2: "screen and (min-width: 481px) and (max-width: 767px)";
+/* Medium devices (tablets, 768px and up) */
+$m: "screen and (min-width: 768px) and (max-width: 1024px)";
+/* Large devices (Laptops and smaller desktops) */
+$l: "screen and (min-width: 1025px) and (max-width: 1280px)";
+/* Extra large devices (Desktops 1281 and up) */
+$xl: "screen and (min-width: 1281px)";
 
 /* Links */
 $links: 'a:link, a:active, a:visited';

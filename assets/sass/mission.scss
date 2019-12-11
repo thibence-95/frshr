@@ -26,3 +26,14 @@ body {
     }
   }
 }
+
+#diagram {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  img {
+    display: block;
+    margin: auto;
+    width: 40%;
+  }
+}

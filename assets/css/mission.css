@@ -82,14 +82,10 @@ body section li {
   margin-top: 1%;
 }
 
-#diagram {
-  display: flex;
-  align-items: center;
-  padding: 20px 0;
-}
-#diagram img {
-  display: block;
-  margin: auto;
+.carousel-caption {
+  background-color: rgba(239, 242, 227, 0.9);
+  color: black;
+  padding-left: 10px;
 }
 
 /*# sourceMappingURL=mission.css.map */

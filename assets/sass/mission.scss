@@ -1,0 +1,51 @@
+@import "libs/vars";
+@import "libs/functions";
+
+body {
+  width: 90%;
+  margin: auto;
+  padding-top: 100px;
+  .navbar {
+    color: color(light-blue);
+    background-color: white;
+    position: fixed;
+    width: 90%;
+    z-index: 1000;
+    margin-top: -100px;
+    padding-top: -200px;
+    padding-bottom: 20px;
+  }
+  .container-fluid {
+    .img-fit {
+      width: 100%;
+      object-fit: cover;
+      height: 15em;
+    }
+    h2 {
+      color: color(navy-blue);
+    }
+    span {
+      color: color(light-blue);
+    }
+    .green {
+      color: color(fresh-green);
+    }
+    li {
+      font-size: 80%;
+      margin-top: 1%;
+    }
+    .alternate:nth-child(even) {
+      background-color: color(light-grey);
+    }
+  }
+}
+
+#diagram {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  img {
+    display: block;
+    margin: auto;
+  }
+}

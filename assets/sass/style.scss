@@ -22,7 +22,6 @@
   m - Medium devices like tablets
   l - Laptops and smaller desktops
   xl - Desktops
-
   @media #{$s} {
     body {
       background-color:red;
@@ -41,13 +40,13 @@ body {
   hr {
     border-color: color(light-blue);
   }
-  
+
   h1,h2,h3 {
     font-weight: bold;
     text-transform: uppercase;
   }
 
-body, input, select, textarea {
-  color: color('text');
-  font-size: 1.3em;
-}
+  body, input, select, textarea {
+    color: color('text');
+    font-size: 1.3em;
+  }

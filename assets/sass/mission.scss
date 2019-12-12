@@ -2,24 +2,14 @@
 @import "libs/functions";
 
 body {
-  width: 90%;
-  margin: auto;
-  padding-top: 100px;
-  .navbar {
-    color: color(light-blue);
-    background-color: white;
-    position: fixed;
-    width: 90%;
-    z-index: 1000;
-    margin-top: -100px;
-    padding-top: -200px;
-    padding-bottom: 20px;
-  }
-  .container-fluid {
+  section {
     .img-fit {
       width: 100%;
       object-fit: cover;
       height: 15em;
+    }
+    header {
+      padding: 1%;
     }
     h2 {
       color: color(navy-blue);
@@ -30,12 +20,15 @@ body {
     .green {
       color: color(fresh-green);
     }
-    li {
-      font-size: 80%;
-      margin-top: 1%;
+    .alternate {
+      padding: 1%;
     }
     .alternate:nth-child(even) {
       background-color: color(light-grey);
+    }
+    li {
+      font-size: 80%;
+      margin-top: 1%;
     }
   }
 }

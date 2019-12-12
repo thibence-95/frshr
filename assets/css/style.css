@@ -1,17 +1,65 @@
-/* Error: expected "}".
- *    ,
- * 52 |   }
- *    |    ^
- *    '
- *   style.scss 52:4  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "}".\a    \2577 \a 52 \2502    }\a    \2502     ^\a    \2575 \a   style.scss 52:4  root stylesheet';
+/* Colour palette */
+/* Media queries */
+/* Small devices (smartphones) */
+/* Small tablets */
+/* Medium devices (tablets, 768px and up) */
+/* Large devices (Laptops and smaller desktops) */
+/* Extra large devices (Desktops 1281 and up) */
+/* Links */
+/* Colour function */
+@import "../css/fontello.css";
+/* Colour scheme
+  text(=black)
+  white
+  light-blue
+  navy-blue
+  light-grey
+*/
+/* Icon classes
+  icon-cloud (cloud with fill)
+  icon-cloud-1 (cloud without fill)
+  icon-facebook (facebook f)
+  icon-twitter (bird)
+  icon-menu (three lines)
+*/
+/* Media queries if need be
+  s - small devices
+  s2 - Small tablets
+  m - Medium devices like tablets
+  l - Laptops and smaller desktops
+  xl - Desktops
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+      background-color:red;
+    }
+  }
+*/
+@font-face {
+  font-family: Icons, sans-serif;
+  src: url("../font/fontello.woff");
 }
+body, input, select, textarea {
+  color: #242424;
+  font-size: 1.3em;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+  font-family: "Barlow Condensed", sans-serif;
+}
+body hr {
+  border-color: #3384B3;
+}
+body h1, body h2, body h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+body a:link, body a:active, body a:visited {
+  text-decoration: none;
+}
+body footer {
+  font-size: 0.7em;
+}
+
+/*# sourceMappingURL=style.css.map */

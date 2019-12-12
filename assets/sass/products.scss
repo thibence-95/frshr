@@ -10,6 +10,14 @@ body {
         object-fit: cover;
         height: 15em;
       }
+      form {
+        textarea {
+          font-size: 0.8em;
+          border-radius: 3px;
+          resize:none;
+          outline: none;
+        }
+      }
 
       header {
         padding: 1%;

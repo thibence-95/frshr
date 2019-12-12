@@ -4,8 +4,18 @@
 body {
   width: 90%;
   margin: auto;
-  padding: 0;
-  section {
+  padding-top: 100px;
+  .navbar {
+    color: color(light-blue);
+    background-color: white;
+    position: fixed;
+    width: 90%;
+    z-index: 1000;
+    margin-top: -100px;
+    padding-top: -200px;
+    padding-bottom: 20px;
+  }
+  .container-fluid {
     .img-fit {
       width: 100%;
       object-fit: cover;
@@ -24,6 +34,9 @@ body {
       font-size: 80%;
       margin-top: 1%;
     }
+    .alternate:nth-child(even) {
+      background-color: color(light-grey);
+    }
   }
 }
 
@@ -34,6 +47,5 @@ body {
   img {
     display: block;
     margin: auto;
-    width: 40%;
   }
 }

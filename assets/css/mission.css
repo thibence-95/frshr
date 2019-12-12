@@ -10,25 +10,38 @@
 body {
   width: 90%;
   margin: auto;
-  padding: 0;
+  padding-top: 100px;
 }
-body section .img-fit {
+body .navbar {
+  color: #3384B3;
+  background-color: white;
+  position: fixed;
+  width: 90%;
+  z-index: 1000;
+  margin-top: -100px;
+  padding-top: -200px;
+  padding-bottom: 20px;
+}
+body .container-fluid .img-fit {
   width: 100%;
   object-fit: cover;
   height: 15em;
 }
-body section h2 {
+body .container-fluid h2 {
   color: #022f39;
 }
-body section span {
+body .container-fluid span {
   color: #3384B3;
 }
-body section .green {
+body .container-fluid .green {
   color: #2acb66;
 }
-body section li {
+body .container-fluid li {
   font-size: 80%;
   margin-top: 1%;
+}
+body .container-fluid .alternate:nth-child(even) {
+  background-color: #EFF2E3;
 }
 
 #diagram {
@@ -39,7 +52,6 @@ body section li {
 #diagram img {
   display: block;
   margin: auto;
-  width: 40%;
 }
 
 /*# sourceMappingURL=mission.css.map */

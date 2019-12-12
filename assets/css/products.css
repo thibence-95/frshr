@@ -8,30 +8,30 @@
 /* Links */
 /* Colour function */
 @import "../css/fontello.css";
-body section .img-fit {
+body .page-wrapper section .img-fit {
   width: 100%;
   object-fit: cover;
   height: 15em;
 }
-body section header {
+body .page-wrapper section header {
   padding: 1%;
 }
-body section h2 {
+body .page-wrapper section h2 {
   color: #022f39;
 }
-body section span {
+body .page-wrapper section span {
   color: #3384B3;
 }
-body section .green {
+body .page-wrapper section .green {
   color: #2acb66;
 }
-body section .alternate {
+body .page-wrapper section .alternate {
   padding: 1%;
 }
-body section .alternate:nth-child(even) {
+body .page-wrapper section .alternate:nth-child(even) {
   background-color: #EFF2E3;
 }
-body section li {
+body .page-wrapper section li {
   font-size: 80%;
   margin-top: 1%;
 }

@@ -17,8 +17,11 @@
         <nav class="navbar navbar-toggleable-md">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a href="#menu" class="navbar-toggler navbar-toggler-right"><span>Menu</span></a>
-                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    <a aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                       class="navbar-toggler navbar-toggler-right"
+                       data-target="#navbarSupportedContent" data-toggle="collapse" href="#menu"><span>Menu</span></a>
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent"
                             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -35,13 +38,11 @@
         </nav>
     </header>
     <section class="container w-100">
-        <article class="row my-5 d-flex">
+        <header class="row my-5 d-flex intro">
             <h2>Enjoying FRSH air has never been easier.</h2>
-            <p>Thanks to our new monthly subscription model anyone can enjoy clean and completely healthy air.
-            <br />
-            Have a look below to see what package fits best for you:
+            <p>Thanks to our new monthly subscription model anyone can enjoy clean and completely healthy air.<br />Have a look below to see what package fits best for you:
             </p>
-        </article>
+        </header>
         <hr>
         <!-- First - FRSH -->
         <article class="row my-5 d-flex flex-row alternate">
@@ -125,7 +126,7 @@
         <!-- Fourth - FRSHST -->
         <article class="row my-5 d-flex flex-row-reverse alternate">
             <div class="col-md-6">
-                <img src="images/mountain2.jpeg" class="img-responsive img-fit" alt="Rice fields">
+                <img src="images/mountain2.jpeg" class="img-responsive img-fit" alt="Another mountain range">
             </div>
             <div class="col-md-6">
                 <h1 class="float-right">&euro;129,99</h1>
@@ -133,7 +134,7 @@
                     <h2>FRSH<span class="green">ST</span>
                         <br/>
                         <span>Advanced</span></h2>
-                    <p>The best way to experience FRSH and finally breathe easy with quality, healthy air.</p>
+                    <p>The best way to experience FRSH and finally breathe easy with quality, healthy air. Breathe easy, you're safe now.</p>
                     <span>Includes the following flavours:</span>
                     <div class="d-flex">
                         <ul>
@@ -149,7 +150,7 @@
                             <li>Dapper Desert</li>
                         </ul>
                         <ul class="float-right ml-4">
-                            <li>Spicy Sunny Seaside</li>
+                            <li>Lazy Loch</li>
                             <li>Dapper Desert</li>
                         </ul>
                     </div>

@@ -12,6 +12,9 @@ body section .img-fit {
   object-fit: cover;
   height: 15em;
 }
+body section header {
+  padding: 1%;
+}
 body section h2 {
   color: #022f39;
 }
@@ -21,7 +24,10 @@ body section span {
 body section .green {
   color: #2acb66;
 }
-body section .alternate:nth-child(4) {
+body section .alternate {
+  padding: 1%;
+}
+body section .alternate:nth-child(even) {
   background-color: #EFF2E3;
 }
 body section li {

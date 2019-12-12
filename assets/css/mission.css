@@ -7,41 +7,32 @@
 /* Extra large devices (Desktops 1281 and up) */
 /* Links */
 /* Colour function */
-body {
-  width: 90%;
-  margin: auto;
-  padding-top: 100px;
-}
-body .navbar {
-  color: #3384B3;
-  background-color: white;
-  position: fixed;
-  width: 90%;
-  z-index: 1000;
-  margin-top: -100px;
-  padding-top: -200px;
-  padding-bottom: 20px;
-}
-body .container-fluid .img-fit {
+body section .img-fit {
   width: 100%;
   object-fit: cover;
   height: 15em;
 }
-body .container-fluid h2 {
+body section header {
+  padding: 1%;
+}
+body section h2 {
   color: #022f39;
 }
-body .container-fluid span {
+body section span {
   color: #3384B3;
 }
-body .container-fluid .green {
+body section .green {
   color: #2acb66;
 }
-body .container-fluid li {
+body section .alternate {
+  padding: 1%;
+}
+body section .alternate:nth-child(even) {
+  background-color: #EFF2E3;
+}
+body section li {
   font-size: 80%;
   margin-top: 1%;
-}
-body .container-fluid .alternate:nth-child(even) {
-  background-color: #EFF2E3;
 }
 
 #diagram {

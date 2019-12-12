@@ -7,30 +7,77 @@
 /* Extra large devices (Desktops 1281 and up) */
 /* Links */
 /* Colour function */
-.page-wrapper section .img-fit {
+body {
+  font-family: "Barlow Condensed", sans-serif;
+}
+body .page-wrapper {
+  width: 80%;
+  margin: auto;
+}
+body .page-wrapper hr {
+  border-color: #3384B3;
+}
+body .page-wrapper h1, body .page-wrapper h2, body .page-wrapper h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+body .page-wrapper a:link, body .page-wrapper a:active, body .page-wrapper a:visited {
+  text-decoration: none;
+}
+body .page-wrapper footer {
+  font-size: 0.7em;
+}
+body .page-wrapper section .img-fit {
   width: 100%;
   object-fit: cover;
   height: 15em;
 }
-.page-wrapper section header {
+body .page-wrapper section header {
   padding: 1%;
 }
-.page-wrapper section h2 {
+body .page-wrapper section h2 {
   color: #022f39;
 }
-.page-wrapper section span {
+body .page-wrapper section span {
   color: #3384B3;
 }
-.page-wrapper section .green {
+body .page-wrapper section .green {
   color: #2acb66;
 }
-.page-wrapper section .alternate {
+body .page-wrapper section .alternate {
   padding: 1%;
 }
-.page-wrapper section .alternate:nth-child(even) {
+body .page-wrapper section .alternate:nth-child(even) {
   background-color: #EFF2E3;
 }
-.page-wrapper section li {
+body .page-wrapper section li {
+  font-size: 80%;
+  margin-top: 1%;
+}
+body section .img-fit {
+  width: 100%;
+  object-fit: cover;
+  height: 15em;
+}
+body section header {
+  padding: 1%;
+}
+body section h2 {
+  color: #022f39;
+}
+body section span {
+  color: #3384B3;
+}
+body section .green {
+  color: #2acb66;
+}
+body section .alternate {
+  padding: 1%;
+}
+body section .alternate:nth-child(even) {
+  background-color: #EFF2E3;
+}
+body section li {
   font-size: 80%;
   margin-top: 1%;
 }

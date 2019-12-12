@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="458bfd18-983e-4828-8cd0-de2f260b4675" name="Default Changelist" comment="" />
+    <list default="true" id="458bfd18-983e-4828-8cd0-de2f260b4675" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/mission.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/mission.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/mission.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/mission.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/libs/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/libs/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/mission.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/mission.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/elements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +82,8 @@
       <workItem from="1575963983294" duration="5013000" />
       <workItem from="1575971558259" duration="10957000" />
       <workItem from="1576054053328" duration="1053000" />
-      <workItem from="1576055483040" duration="11406000" />
+      <workItem from="1576055483040" duration="12150000" />
+      <workItem from="1576137247791" duration="3779000" />
     </task>
     <servers />
   </component>
@@ -86,9 +95,9 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="449" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1299.741@67.27.1299.741" timestamp="1576062042367" />
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1576054074092">
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1576137249791">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1576054074092" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1576137249791" />
   </component>
 </project>

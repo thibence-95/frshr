@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="cloud" unicode="&#xe800;" d="M1071 207q0-89-62-151t-152-63h-607q-103 0-177 73t-73 177q0 74 40 135t104 91q-1 16-1 24 0 118 84 202t202 84q88 0 159-49t105-129q39 35 93 35 59 0 101-42t42-101q0-42-23-77 72-17 119-75t46-134z" horiz-adv-x="1071.4" />
+
+<glyph glyph-name="cloud-1" unicode="&#xe801;" d="M781-15l-572 0q-86 0-148 61t-61 148q0 72 44 128t112 73l0 8q0 130 92 221t221 91q100 0 180-58t114-152q115 9 196-68t82-191q0-107-76-184t-184-77z m-577 314q-40 0-70-31t-30-74 30-73 75-31l572 0q65 0 111 46t46 110-46 111-111 46q-18 0-42-8l-56-16-9 57q-14 75-71 125t-134 49q-86 0-148-61t-61-146q0-15 5-43l13-62z" horiz-adv-x="1041" />
+
+<glyph glyph-name="facebook" unicode="&#xe802;" d="M0 313l0 191 154 0 0 96q0 104 68 177t163 73l153 0 0-191-153 0q-15 0-27-16t-12-41l0-98 192 0 0-191-192 0 0-463-192 0 0 463-154 0z" horiz-adv-x="538" />
+
+<glyph glyph-name="twitter" unicode="&#xe803;" d="M0-37q30-3 60-3 176 0 314 108-82 1-147 50t-89 125q20-4 47-4 35 0 67 9-88 17-145 87t-58 160l0 3q53-30 115-31-52 34-82 90t-31 120q0 68 35 127 94-117 230-186t290-78q-7 33-7 58 0 104 74 178t179 74q109 0 184-80 87 18 160 62-28-91-110-140 73 9 144 40-48-75-125-131l0-33q0-101-29-202t-90-194-145-165-201-115-253-42q-209 0-387 113z" horiz-adv-x="1230" />
+
+<glyph glyph-name="menu" unicode="&#xf0c9;" d="M857 100v-71q0-15-10-25t-26-11h-785q-15 0-25 11t-11 25v71q0 15 11 25t25 11h785q15 0 26-11t10-25z m0 286v-72q0-14-10-25t-26-10h-785q-15 0-25 10t-11 25v72q0 14 11 25t25 10h785q15 0 26-10t10-25z m0 285v-71q0-14-10-25t-26-11h-785q-15 0-25 11t-11 25v71q0 15 11 26t25 10h785q15 0 26-10t10-26z" horiz-adv-x="857.1" />
+</font>
+</defs>
+</svg>

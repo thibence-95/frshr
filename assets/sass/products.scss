@@ -8,6 +8,9 @@ body {
       object-fit: cover;
       height: 15em;
     }
+    header {
+      padding: 1%;
+    }
     h2 {
       color: color(navy-blue);
     }
@@ -17,7 +20,10 @@ body {
     .green {
       color: color(fresh-green);
     }
-    .alternate:nth-child(4) {
+    .alternate {
+      padding: 1%;
+    }
+    .alternate:nth-child(even) {
       background-color: color(light-grey);
     }
     li {

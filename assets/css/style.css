@@ -43,23 +43,26 @@ body, input, select, textarea {
   font-size: 1.3em;
 }
 
-body {
+body .page-wrapper {
   width: 80%;
   margin: auto;
   font-family: "Barlow Condensed", sans-serif;
 }
-body hr {
+body .page-wrapper hr {
   border-color: #3384B3;
 }
-body h1, body h2, body h3 {
+body .page-wrapper h1, body .page-wrapper h2, body .page-wrapper h3 {
   font-weight: bold;
   text-transform: uppercase;
 }
-body a:link, body a:active, body a:visited {
+body .page-wrapper a:link, body .page-wrapper a:active, body .page-wrapper a:visited {
   text-decoration: none;
 }
-body footer {
+body .page-wrapper footer {
   font-size: 0.7em;
+}
+body .page-wrapper section i {
+  font-style: italic;
 }
 
 /*# sourceMappingURL=style.css.map */

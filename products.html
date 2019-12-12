@@ -13,170 +13,172 @@
     <link href="assets/css/products.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-toggleable-md">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
-                       class="navbar-toggler navbar-toggler-right"
-                       data-target="#navbarSupportedContent" data-toggle="collapse" href="#menu"><span>Menu</span></a>
-                    <button class="navbar-toggler navbar-toggler-right icon-menu" type="button" data-toggle="collapse"
-                            data-target="#navbarSupportedContent"
-                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
-                            <li class="nav-item"><a class="nav-link" href="custom.html">Customisation</a></li>
-                            <li class="nav-item"><a class="nav-link" href="mission.html">Mission</a></li>
-                        </ul>
+    <div class="page-wrapper">
+        <header>
+            <nav class="navbar navbar-toggleable-md">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                           class="navbar-toggler navbar-toggler-right"
+                           data-target="#navbarSupportedContent" data-toggle="collapse" href="#menu"><span>Menu</span></a>
+                        <button class="navbar-toggler navbar-toggler-right icon-menu" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                                <li class="nav-item"><a class="nav-link" href="custom.html">Customisation</a></li>
+                                <li class="nav-item"><a class="nav-link" href="mission.html">Mission</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="container w-100">
+            <header class="row my-5 d-flex">
+                <h2>Enjoying FRSH air has never been easier.</h2>
+                <p>Thanks to our new monthly subscription models anyone can enjoy clean and completely healthy air.<br />Have a look below to see what package fits best for you:
+                </p>
+            </header>
+            <hr>
+            <!-- Alternating from floating left to right with flex-row -->
+            <!-- First - FRSH -->
+            <article class="row my-5 d-flex flex-row alternate">
+                <div class="col-md-6">
+                    <img src="images/seaside.jpeg" class="img-responsive img-fit" alt="The wonderful salty air">
+                </div>
+                <div class="col-md-6">
+                    <h1 class="float-right">&euro;29,99</h1>
+                    <div>
+                        <h2>FRSH
+                            <br/>
+                            <span>Basic</span></h2>
+                        <p>Our most standard package for those who don't want the full health experience. Your loss.</p>
+                        <span>Includes the following flavours:</span>
+                            <ul>
+                                <li>Sunny Seaside</li>
+                                <li>Mellow Meadow</li>
+                            </ul>
+                        <button type="button" class="btn btn-outline-primary col-md-3">SUBSCRIBE</button>
                     </div>
+                </div>
+            </article>
+            <!-- Second - FRSHR -->
+            <article class="row my-5 d-flex flex-row-reverse alternate">
+                <div class="col-md-6">
+                    <img src="images/rainforest.jpg" class="img-responsive img-fit" alt="The nice humid air in a jungle stream">
+                </div>
+                <div class="col-md-6">
+                    <h1 class="float-right">&euro;49,99</h1>
+                    <div>
+                        <h2>FRSH<span class="green">R</span>
+                            <br/>
+                            <span>Starter</span></h2>
+                        <p>The basic package to get a good grasp on the FRSH experience.</p>
+                        <span>Includes the following flavours:</span>
+                        <div class="d-flex">
+                            <ul>
+                                <li>Sunny Seaside</li>
+                                <li>Mellow Meadow</li>
+                            </ul>
+                            <ul class="float-right ml-5">
+                                <li>Rad Rainforest</li>
+                                <li>Vanilla Valley</li>
+                            </ul>
+                        </div>
+                        <button type="button" class="btn btn-outline-primary col-md-3">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </article>
+            <!-- Third - FRSH+ -->
+            <article class="row my-5 d-flex flex-row">
+                <div class="col-md-6">
+                    <img src="images/paddy.jpeg" class="img-responsive img-fit" alt="Rice fields">
+                </div>
+                <div class="col-md-6">
+                    <h1 class="float-right">&euro;89,99</h1>
+                    <div>
+                        <h2>FRSH<span class="green">&plus;</span>
+                            <br/>
+                            <span>Intermediate</span></h2>
+                        <p>A great budget option to have a good range of FRSH air throughout the years.</p>
+                        <span>Includes the following flavours:</span>
+                        <div class="d-flex">
+                            <ul>
+                                <li>Sunny Seaside</li>
+                                <li>Mellow Meadow</li>
+                            </ul>
+                            <ul class="float-right ml-5">
+                                <li>Rad Rainforest</li>
+                                <li>Vanilla Valley</li>
+                            </ul>
+                            <ul class="float-right ml-5">
+                                <li>Spicy Sunny Seaside</li>
+                                <li>Dapper Desert</li>
+                            </ul>
+                        </div>
+                    </div>
+                        <button type="button" class="btn btn-outline-primary col-md-3">SUBSCRIBE</button>
+                    </div>
+            </article>
+            <!-- Fourth - FRSHST -->
+            <article class="row my-5 d-flex flex-row-reverse alternate">
+                <div class="col-md-6">
+                    <img src="images/mountain2.jpeg" class="img-responsive img-fit" alt="Another mountain range">
+                </div>
+                <div class="col-md-6">
+                    <h1 class="float-right">&euro;129,99</h1>
+                    <div>
+                        <h2>FRSH<span class="green">ST</span>
+                            <br/>
+                            <span>Advanced</span></h2>
+                        <p>The <i>best</i> way to experience FRSH and finally breathe easy with quality, healthy air. Breathe easy, you're safe now.</p>
+                        <span>Includes the following flavours:</span>
+                        <div class="d-flex">
+                            <ul>
+                                <li>Sunny Seaside</li>
+                                <li>Mellow Meadow</li>
+                            </ul>
+                            <ul class="float-right ml-5">
+                                <li>Rad Rainforest</li>
+                                <li>Vanilla Valley</li>
+                            </ul>
+                            <ul class="float-right ml-5">
+                                <li>Spicy Sunny Seaside</li>
+                                <li>Dapper Desert</li>
+                            </ul>
+                            <ul class="float-right ml-4">
+                                <li>Lazy Loch</li>
+                                <li>Hearty Heath</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-outline-primary col-md-3">SUBSCRIBE</button>
+                </div>
+            </article>
+            <hr>
+        </section>
+        <footer>
+            <a href="#" class="icon brands icon-twitter"><span class="label"></span></a>
+            <a href="#" class="icon brands icon-facebook"><span class="label"></span></a>
+            <ul>
+                <li>&copy; Copyright</li>
+                <li>Design:
+                    <a href="#">Four wonderful people</a>
+                </li>
+                <li>Demo Images:
+                    <a href="http://unsplash.com">Unsplash</a>
                 </li>
             </ul>
-        </nav>
-    </header>
-    <section class="container w-100">
-        <header class="row my-5 d-flex">
-            <h2>Enjoying FRSH air has never been easier.</h2>
-            <p>Thanks to our new monthly subscription models anyone can enjoy clean and completely healthy air.<br />Have a look below to see what package fits best for you:
-            </p>
-        </header>
-        <hr>
-        <!-- Alternating from floating left to right with flex-row -->
-        <!-- First - FRSH -->
-        <article class="row my-5 d-flex flex-row alternate">
-            <div class="col-md-6">
-                <img src="images/seaside.jpeg" class="img-responsive img-fit" alt="The wonderful salty air">
-            </div>
-            <div class="col-md-6">
-                <h1 class="float-right">&euro;29,99</h1>
-                <div>
-                    <h2>FRSH
-                        <br/>
-                        <span>Basic</span></h2>
-                    <p>Our most standard package for those who don't want the full health experience. Your loss.</p>
-                    <span>Includes the following flavours:</span>
-                        <ul>
-                            <li>Sunny Seaside</li>
-                            <li>Mellow Meadow</li>
-                        </ul>
-                    <button type="button" class="btn btn-outline-primary col-md-3">SUBSCRIBE</button>
-                </div>
-            </div>
-        </article>
-        <!-- Second - FRSHR -->
-        <article class="row my-5 d-flex flex-row-reverse alternate">
-            <div class="col-md-6">
-                <img src="images/rainforest.jpg" class="img-responsive img-fit" alt="The nice humid air in a jungle stream">
-            </div>
-            <div class="col-md-6">
-                <h1 class="float-right">&euro;49,99</h1>
-                <div>
-                    <h2>FRSH<span class="green">R</span>
-                        <br/>
-                        <span>Starter</span></h2>
-                    <p>The basic package to get a good grasp on the FRSH experience.</p>
-                    <span>Includes the following flavours:</span>
-                    <div class="d-flex">
-                        <ul>
-                            <li>Sunny Seaside</li>
-                            <li>Mellow Meadow</li>
-                        </ul>
-                        <ul class="float-right ml-5">
-                            <li>Rad Rainforest</li>
-                            <li>Vanilla Valley</li>
-                        </ul>
-                    </div>
-                    <button type="button" class="btn btn-outline-primary col-md-3">SUBSCRIBE</button>
-                </div>
-            </div>
-        </article>
-        <!-- Third - FRSH+ -->
-        <article class="row my-5 d-flex flex-row">
-            <div class="col-md-6">
-                <img src="images/paddy.jpeg" class="img-responsive img-fit" alt="Rice fields">
-            </div>
-            <div class="col-md-6">
-                <h1 class="float-right">&euro;89,99</h1>
-                <div>
-                    <h2>FRSH<span class="green">&plus;</span>
-                        <br/>
-                        <span>Intermediate</span></h2>
-                    <p>A great budget option to have a good range of FRSH air throughout the years.</p>
-                    <span>Includes the following flavours:</span>
-                    <div class="d-flex">
-                        <ul>
-                            <li>Sunny Seaside</li>
-                            <li>Mellow Meadow</li>
-                        </ul>
-                        <ul class="float-right ml-5">
-                            <li>Rad Rainforest</li>
-                            <li>Vanilla Valley</li>
-                        </ul>
-                        <ul class="float-right ml-5">
-                            <li>Spicy Sunny Seaside</li>
-                            <li>Dapper Desert</li>
-                        </ul>
-                    </div>
-                </div>
-                    <button type="button" class="btn btn-outline-primary col-md-3">SUBSCRIBE</button>
-                </div>
-        </article>
-        <!-- Fourth - FRSHST -->
-        <article class="row my-5 d-flex flex-row-reverse alternate">
-            <div class="col-md-6">
-                <img src="images/mountain2.jpeg" class="img-responsive img-fit" alt="Another mountain range">
-            </div>
-            <div class="col-md-6">
-                <h1 class="float-right">&euro;129,99</h1>
-                <div>
-                    <h2>FRSH<span class="green">ST</span>
-                        <br/>
-                        <span>Advanced</span></h2>
-                    <p>The best way to experience FRSH and finally breathe easy with quality, healthy air. Breathe easy, you're safe now.</p>
-                    <span>Includes the following flavours:</span>
-                    <div class="d-flex">
-                        <ul>
-                            <li>Sunny Seaside</li>
-                            <li>Mellow Meadow</li>
-                        </ul>
-                        <ul class="float-right ml-5">
-                            <li>Rad Rainforest</li>
-                            <li>Vanilla Valley</li>
-                        </ul>
-                        <ul class="float-right ml-5">
-                            <li>Spicy Sunny Seaside</li>
-                            <li>Dapper Desert</li>
-                        </ul>
-                        <ul class="float-right ml-4">
-                            <li>Lazy Loch</li>
-                            <li>Hearty Heath</li>
-                        </ul>
-                    </div>
-                </div>
-                <button type="button" class="btn btn-outline-primary col-md-3">SUBSCRIBE</button>
-            </div>
-        </article>
-        <hr>
-    </section>
-    <footer>
-        <a href="#" class="icon brands icon-twitter"><span class="label"></span></a>
-        <a href="#" class="icon brands icon-facebook"><span class="label"></span></a>
-        <ul>
-            <li>&copy; Copyright</li>
-            <li>Design:
-                <a href="#">Four wonderful people</a>
-            </li>
-            <li>Demo Images:
-                <a href="http://unsplash.com">Unsplash</a>
-            </li>
-        </ul>
-    </footer>
-<!-- Bootstrap js -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        </footer>
+    <!-- Bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</div>
 </body>
 </html>

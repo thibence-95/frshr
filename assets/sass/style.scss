@@ -1,5 +1,6 @@
 @import "libs/vars";
 @import "libs/functions";
+@import "../css/fontello.css";
 
 /* Colour scheme
   text(=black)
@@ -22,7 +23,10 @@
   }
 
 */
-
+@font-face {
+  font-family: Icons, sans-serif;
+  src: url("../font/fontello.woff");
+}
 body {
   width: 80%;
   margin: auto;

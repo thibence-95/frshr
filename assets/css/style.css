@@ -1,5 +1,5 @@
 /* Colour palette */
-/* Bootstrap's media queries */
+/* Media queries */
 /* Small devices (smartphones) */
 /* Small tablets */
 /* Medium devices (tablets, 768px and up) */
@@ -21,7 +21,7 @@
   l - Laptops and smaller desktops
   xl - Desktops
 
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media screen and (min-width: 320px) and (max-width: 480px) {
     body {
       background-color:red;
     }

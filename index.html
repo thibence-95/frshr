@@ -8,17 +8,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <!--<link href="assets/css/style.css" rel="stylesheet" type="text/css">-->
     <!-- Don't forget to correctly link your files -->
     <link href="assets/sass/landing.css" rel="stylesheet" type="text/css">
 </head>
 
 
 <body>
-<div id="page-wrapper">
+<div class="page-wrapper">
     <!--page-wrapper keeps everything from stretching too wide-->
     <header>
-        <nav class="navbar navbar-toggleable-md"> <!--Talisa's nav-->
+        <nav class="navbar navbar-toggleable-md">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
@@ -40,7 +40,7 @@
             </ul>
         </nav>
     </header>
-
+<main>
     <!--Banner-->
     <section id="banner">
         <div>
@@ -50,29 +50,34 @@
         <a href="#one" class="more scrolly">Learn More</a>
     </section>
 
-    <section id="one" class="wrapper style1 special">
-        <div class="inner">
-            <header class="major">
-                <h2>FRSH</h2>
-                <p>Welcome to FRSH. Here we offer you the freshest approach to giving your lungs a break from the daily strain caused by air pollution.</p>
-            </header>
-        </div>
+    <section class="container-fluid w-100">
+        <article class="row my-5 d-flex flex-row alternate">
+            <div class="col-md-6">
+                <img src="images/farmerexuma.jpg" class="img-responsive img-fit" alt="bahamian farmer" width="312">
+            </div>
+            <div class="col-md-6">
+                <div class="text-dark">
+                    <h2>FRSH believes every individual has the right to unpolluted air.</h2>
+                    <p class="lead">Here at FRSH we extract and filter oxygen from clean <em>"air-reas"</em> so you can have the freshest breath of air on the planet at the push of a button and a suck of the toot. </p>
+                </div>
+            </div>
+        </article>
     </section>
 
-    <article class="row my-5 d-flex flex-row">
-        <div class="col-md-6">
-            <img src="images/seaside.jpeg" class="img-responsive img-fit" alt="FRSH">
-        </div>
-        <div class="col-md-6">
-            <div>
-                <h2>FRSH
-                    <br>
-                    <span>Healthy air for your respiratory system's own good</span></h2>
-                <p>At the push of a button and a suck of a vape you will be able to experience the FRSH experience our farmers have much experience in experiencing on the daily. </p>
-                <button type="button" class="btn btn-outline-primary col-md-3">BUY</button>
-            </div>
-        </div>
-    </article>
+        <section class="container-fluid w-100">
+            <article class="row my-5 d-flex flex-row-reverse alternate">
+                <div class="col-md-6">
+                    <img src="images/farmerexuma.jpg" class="img-responsive img-fit" alt="bahamian farmer" width="312">
+                </div>
+                <div class="col-md-6">
+                    <div class="text-dark">
+                        <h2>FRSH believes every individual has the right to unpolluted air.</h2>
+                        <p class="lead">Here at FRSH we extract and filter oxygen from clean <em>"air-reas"</em> so you can have the freshest breath of air on the planet at the push of a button and a suck of the toot. </p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
 
     <section id="three" class="wrapper style3 special">
         <div class="inner">
@@ -113,8 +118,8 @@
     <section id="cta" class="wrapper style4">
         <div class="inner">
             <header>
-                <h2>Arcue ut vel commodo</h2>
-                <p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+                <h2>Not that interested yet? Have a look at our prices and gasp.</h2>
+                <p>What makes us unique here at FRSH is that besides offering products, we offer basic subscriptions that strongly enhance the FRSH experience.</p>
             </header>
             <ul class="actions stacked">
                 <li><a href="#" class="button fit primary">Activate</a></li>
@@ -122,6 +127,7 @@
             </ul>
         </div>
     </section>
+</main>
 
     <footer id="footer">
         <ul class="icons">

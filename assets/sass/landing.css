@@ -15,6 +15,7 @@ body {
     overflow-x: hidden;
     font-family: "Barlow Condensed", sans-serif;
 }
+
 #banner {
     box-sizing: border-box;
     min-height: 40vw;
@@ -59,3 +60,29 @@ body, input, select, textarea {
     color: #242424;
     font-size: 1.3em;
 }
+#cta .inner {
+
+    display: flex;
+    max-width: 45rem;
+}
+
+#cta .inner header {
+    order: 1;
+    padding-right: 3em;
+    width: 70%;
+}
+#cta .inner .actions {
+    order: 2;
+    width: 30%;
+}
+.actions li {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: solid black 1px;
+    text-align: center;
+}
+

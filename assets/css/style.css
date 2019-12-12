@@ -7,6 +7,7 @@
 /* Extra large devices (Desktops 1281 and up) */
 /* Links */
 /* Colour function */
+@import "../css/fontello.css";
 /* Colour scheme
   text(=black)
   white
@@ -28,6 +29,10 @@
   }
 
 */
+@font-face {
+  font-family: Icons, sans-serif;
+  src: url("../font/fontello.woff");
+}
 body {
   width: 80%;
   margin: auto;

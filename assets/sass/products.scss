@@ -1,5 +1,6 @@
 @import "libs/vars";
 @import "libs/functions";
+@import "../css/fontello.css";
 
 body {
   section {
@@ -7,6 +8,9 @@ body {
       width: 100%;
       object-fit: cover;
       height: 15em;
+    }
+    header {
+      padding: 1%;
     }
     h2 {
       color: color(navy-blue);
@@ -16,6 +20,12 @@ body {
     }
     .green {
       color: color(fresh-green);
+    }
+    .alternate {
+      padding: 1%;
+    }
+    .alternate:nth-child(even) {
+      background-color: color(light-grey);
     }
     li {
       font-size: 80%;

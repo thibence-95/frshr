@@ -14,6 +14,7 @@
     <link href="assets/css/mission.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+<!--wrapper prevents layout from being too wide-->
 <div id="page-wrapper">
     <header>
         <nav class="navbar navbar-toggleable-md">
@@ -23,16 +24,16 @@
                        class="navbar-toggler navbar-toggler-right"
                        data-target="#navbarSupportedContent" data-toggle="collapse" href="#menu"><span>Menu</span></a>
                     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                            data-target="#navbarSupportedContent"
-                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                                            data-target="#navbarSupportedContent"
+                                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Customisation</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Mission</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                            <li class="nav-item"><a class="nav-link" href="custom.html">Customisation</a></li>
+                            <li class="nav-item"><a class="nav-link" href="mission.html">Mission</a></li>
                         </ul>
                     </div>
                 </li>
@@ -45,7 +46,9 @@
             <header class="major">
                 <h1>How it works</h1>
             </header>
-            <img src="images/diagram.jpg">
+            <div id="diagram">
+                <img src="images/diagram.jpg" alt="circle of life">
+            </div>
             <p id="explanation">Our vape juice is extracted from the freshest air our planet has to offer.
                 To get this air, we work with local farmers at fair prices*.
                 Then our organically* farmed air gets converted to vape juice with science stuff and put into
@@ -62,35 +65,32 @@
                 </small>
             </footer>
         </div>
+        <hr>
     </section>
-
-    <section class="spotlight" id="farmers">
-        <h1>Farmer testimonials</h1>
-        <div class="row my-5 align-middle">
-            <div class="image">
-                <img src="images/farmerexuma.jpg" class="img-responsive my-auto py-auto">
+    <h1>Farmer testimonials</h1>
+    <section class="container-fluid w-100">
+        <article class="row my-5 d-flex flex-row alternate">
+            <div class="col-md-6">
+                <img src="images/farmerexuma.jpg" class="img-responsive img-fit" alt="bahamian farmer" width="312">
             </div>
-            <div class="col-md-7">
+            <div class="col-md-6">
                 <div class="text-dark">
                     <h2>Kevin Johnson<br>
-                        <span class="text-muted">Great Exuma, Bahamas</span></h2>
+                        <span>Great Exuma, Bahamas</span></h2>
                     <p class="lead">FRSHR graciously stepped in to rebuild our economy, in the wake of the great Fyre
-                        Festival recession of 2017.<br>
-                        They also gave each Exuma resident their own net to clean plastic from the ocean...very
-                        necessary
-                        with all the vape juice packag...I mean haha
-                        they’re completely biodegradable.</p>
+                        Festival recession of 2017. They also gave each Exuma resident their own net to clean plastic from the ocean...very
+                        necessary with all the vape juice packag...I mean haha they’re completely biodegradable.</p>
                 </div>
             </div>
-        </div>
-        <div class="row my-5">
-            <div class="image">
-                <img src="images/farmeramazon.jpg" class="img-responsive my-auto py-auto">
+        </article>
+        <article class="row my-5 d-flex flex-row-reverse alternate">
+            <div class="col-md-6">
+                <img src="images/farmeramazon.jpg" class="img-responsive img-fit" alt="amazonian farmer" width="312">
             </div>
-            <div class="col-md-7 order-md-1">
+            <div class="col-md-6">
                 <div class="text-dark">
                     <h2>Angela Quispe<br>
-                        <span class="text-muted">Iquitos, Peruvian Amazon</span></h2>
+                        <span>Iquitos, Peruvian Amazon</span></h2>
                     <p class="lead">Not gonna lie, it’s not ideal that my home is literally on fire. But at least I get
                         to
                         farm the last bits of fresh amazon air for €0,10/kilo.
@@ -98,38 +98,38 @@
                         opportunity.</p>
                 </div>
             </div>
-        </div>
-        <div class="row my-5">
+        </article>
+        <article class="row my-5 d-flex flex-row alternate">
 
-            <div class="image">
-                <img src="images/farmerchina.jpg" class="img-responsive my-auto py-auto">
+            <div class="col-md-6">
+                <img src="images/farmerchina.jpg" class="img-responsive img-fit" alt="chinese farmer" width="312">
             </div>
-            <div class="col-md-7">
+            <div class="col-md-6">
                 <div class="text-dark">
                     <h2>Zhang Youping<br>
-                        <span class="text-muted">Shandong, China</span></h2>
+                        <span>Shandong, China</span></h2>
                     <p class="lead">
-                        My horse ran away. Then he came back. My son rode the horse. My son fell and died.<br>
-                        FRSHR is all I have. Vape is life.
+                        My horse ran away. Then he came back. My son rode the horse. My son fell and died. Horse died
+                        too. FRSHR is all I have now. Vape is life.
                     </p>
                 </div>
             </div>
-        </div>
-        <div class="row my-5">
-            <div class="image">
-                <img src="images/farmerfrance.jpg" class="img-responsive my-auto py-auto">
+        </article>
+        <article class="row my-5 d-flex flex-row-reverse alternate">
+            <div class="col-md-6">
+                <img src="images/farmerfrance.jpg" class="img-fit" alt="french farmer">
             </div>
-            <div class="col-md-7 order-md-1">
+            <div class="col-md-6">
                 <div class="text-dark">
                     <h2>Jean-Jacques-Pierre DuPont<br>
-                        <span class="text-muted">Portet, France</span></h2>
+                        <span>Portet, France</span></h2>
                     <p class="lead">(Is currently on strike because his contract was raised to 4hrs/week)</p>
                 </div>
             </div>
-        </div>
+        </article>
     </section>
 
-
+    <hr>
     <footer id="footer">
         <ul class="icons">
             <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
@@ -146,15 +146,15 @@
             </li>
         </ul>
     </footer>
-</div>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
 </body>
 </html>

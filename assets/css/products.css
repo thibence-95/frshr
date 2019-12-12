@@ -7,10 +7,14 @@
 /* Extra large devices (Desktops 1281 and up) */
 /* Links */
 /* Colour function */
+@import "../css/fontello.css";
 body section .img-fit {
   width: 100%;
   object-fit: cover;
   height: 15em;
+}
+body section header {
+  padding: 1%;
 }
 body section h2 {
   color: #022f39;
@@ -20,6 +24,12 @@ body section span {
 }
 body section .green {
   color: #2acb66;
+}
+body section .alternate {
+  padding: 1%;
+}
+body section .alternate:nth-child(even) {
+  background-color: #EFF2E3;
 }
 body section li {
   font-size: 80%;

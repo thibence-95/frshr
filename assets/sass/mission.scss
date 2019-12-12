@@ -3,20 +3,49 @@
 
 body {
   width: 90%;
-  margin: 0;
-  padding: 0;
-}
-#how {
-  text-align: center;
+  margin: auto;
+  padding-top: 100px;
+  .navbar {
+    color: color(light-blue);
+    background-color: white;
+    position: fixed;
+    width: 90%;
+    z-index: 1000;
+    margin-top: -100px;
+    padding-top: -200px;
+    padding-bottom: 20px;
+  }
+  .container-fluid {
+    .img-fit {
+      width: 100%;
+      object-fit: cover;
+      height: 15em;
+    }
+    h2 {
+      color: color(navy-blue);
+    }
+    span {
+      color: color(light-blue);
+    }
+    .green {
+      color: color(fresh-green);
+    }
+    li {
+      font-size: 80%;
+      margin-top: 1%;
+    }
+    .alternate:nth-child(even) {
+      background-color: color(light-grey);
+    }
+  }
 }
 
-h1 {
-  padding: 20px 0px;
-  text-align: center;
-}
-
-#farmers {
+#diagram {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
   img {
-    width: 787px;
+    display: block;
+    margin: auto;
   }
 }

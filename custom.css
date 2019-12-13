@@ -63,6 +63,10 @@ body {
     float: left;
     width: 33.33%;
     padding: 3px; }
+  body .headertext {
+    text-align: center; }
+  body .green {
+    color: #2acb66; }
   body .row::after {
     content: "";
     clear: both;

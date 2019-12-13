@@ -27,65 +27,69 @@ body .page-wrapper a:link, body .page-wrapper a:active, body .page-wrapper a:vis
 body .page-wrapper footer {
   font-size: 0.7em;
 }
-body .page-wrapper section .img-fit {
+
+#farmers .img-fit {
   width: 100%;
   object-fit: cover;
   height: 15em;
 }
-body .page-wrapper section header {
+#farmers header {
   padding: 1%;
 }
-body .page-wrapper section h2 {
+#farmers h2 {
   color: #022f39;
 }
-body .page-wrapper section span {
+#farmers span {
   color: #3384B3;
 }
-body .page-wrapper section .green {
+#farmers .green {
   color: #2acb66;
 }
-body .page-wrapper section .alternate {
+#farmers .alternate {
   padding: 1%;
 }
-body .page-wrapper section .alternate:nth-child(even) {
+#farmers .alternate:nth-child(even) {
   background-color: #EFF2E3;
 }
-body .page-wrapper section li {
-  font-size: 80%;
-  margin-top: 1%;
-}
-body section .img-fit {
-  width: 100%;
-  object-fit: cover;
-  height: 15em;
-}
-body section header {
-  padding: 1%;
-}
-body section h2 {
-  color: #022f39;
-}
-body section span {
-  color: #3384B3;
-}
-body section .green {
-  color: #2acb66;
-}
-body section .alternate {
-  padding: 1%;
-}
-body section .alternate:nth-child(even) {
-  background-color: #EFF2E3;
-}
-body section li {
+#farmers li {
   font-size: 80%;
   margin-top: 1%;
 }
 
-.carousel-caption {
+#how {
+  margin-top: 100px;
+  min-height: 300px;
+}
+#how .carousel-caption {
   background-color: rgba(239, 242, 227, 0.9);
-  color: black;
+  color: #022f39;
   padding-left: 10px;
+  margin-top: 100px;
+  min-width: 150px;
+}
+#how img {
+  min-height: 300px;
+}
+#how footer {
+  display: unset;
+}
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  #how {
+    display: block;
+  }
+  #how .carousel-caption {
+    font-size: xx-small;
+  }
+}
+@media s2 {
+  #how {
+    display: block;
+  }
+  #how .carousel-caption {
+    font-size: x-small;
+    color: red;
+  }
 }
 
 /*# sourceMappingURL=mission.css.map */

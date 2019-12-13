@@ -8,9 +8,11 @@
    min-height: 40vw;
    padding: 30vw 0 5vw;
    width: 100vw;*/
+  margin-top: 100px;
   text-align: center;
   height: 100%;
   background-image: url("https://www.seatoskyair.ca/wp-content/uploads/2016/06/cascades.png");
+
   /*actual parallax shizzle*/
   background-attachment: fixed;
   background-position: center;

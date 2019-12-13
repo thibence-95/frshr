@@ -15,25 +15,17 @@
 <body>
     <div class="page-wrapper">
         <header>
-            <nav class="navbar navbar-toggleable-md">
+            <nav class="navbar navbar-expand-lg">
                 <a href="index.html"><span class="icon-cloud-1 logo"><strong>FRSH</strong></span></a>
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
-                           class="navbar-toggler navbar-toggler-right"
-                           data-target="#navbarSupportedContent" data-toggle="collapse" href="#menu"></a>
-                        <button class="navbar-toggler navbar-toggler-right icon-menu" type="button" data-toggle="collapse"
-                                data-target="#navbarSupportedContent"
-                                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ml-auto">
-                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                                <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
-                                <li class="nav-item"><a class="nav-link" href="custom.html">Customisation</a></li>
-                                <li class="nav-item"><a class="nav-link" href="mission.html">Mission</a></li>
-                            </ul>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle icon-menu" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="index.html">Home</a>
+                            <a class="dropdown-item" href="products.html">Products</a>
+                            <a class="dropdown-item" href="custom.html">Customization</a>
+                            <a class="dropdown-item" href="mission.html">Mission</a>
                         </div>
                     </li>
                 </ul>
@@ -59,7 +51,7 @@
                             <br/>
                             <span>Basic</span></h2>
                         <p>Our most standard package for those who don't want the full health experience. Your <i>loss.</i></p>
-                        <span>Includes the following flavours:</span>
+                        <span class="blue">Includes the following flavours:</span>
                             <ul>
                                 <li>Sunny Seaside</li>
                                 <li>Mellow Meadow</li>
@@ -78,9 +70,9 @@
                     <div>
                         <h2>FRSH<span class="green">R</span>
                             <br/>
-                            <span>Starter</span></h2>
+                            <span class="blue">Starter</span></h2>
                         <p>The <i>basic</i> package to get a good grasp on the FRSH experience.</p>
-                        <span>Includes the following flavours:</span>
+                        <span class="blue">Includes the following flavours:</span>
                         <div class="d-flex">
                             <ul>
                                 <li>Sunny Seaside</li>
@@ -105,9 +97,9 @@
                     <div>
                         <h2>FRSH<span class="green">&plus;</span>
                             <br/>
-                            <span>Intermediate</span></h2>
+                            <span class="blue">Intermediate</span></h2>
                         <p>A great <i>budget</i> option to have a good range of FRSH air throughout the years.</p>
-                        <span>Includes the following flavours:</span>
+                        <span class="blue">Includes the following flavours:</span>
                         <div class="d-flex">
                             <ul>
                                 <li>Sunny Seaside</li>
@@ -136,9 +128,9 @@
                     <div>
                         <h2>FRSH<span class="green">ST</span>
                             <br/>
-                            <span>Advanced</span></h2>
+                            <span class="blue">Advanced</span></h2>
                         <p>The <i>best</i> way to experience FRSH and finally breathe easy with quality, healthy air. Breathe easy, you're safe now.</p>
-                        <span>Includes the following flavours:</span>
+                        <span class="blue">Includes the following flavours:</span>
                         <div class="d-flex">
                             <ul>
                                 <li>Sunny Seaside</li>
@@ -165,13 +157,13 @@
             <!-- Newsletter contact form -->
             <article class="row my-5 d-flex">
                 <h2>Want to know more or have questions about our services?</h2>
-                <p>Get to know more about our wonderful packages of FRSH air by dropping us an email or calling us by phone which is totally manned by real people.</p>
+                <p>Get to know more about our wonderful packages of FRSH air by dropping us an email or calling us by phone, you will totally talk to a person and not a robot.</p>
                 <!-- Form generated by formspree.io -->
                 <form action="https://formspree.io/xledkawv" method="POST" class="col my-5">
-                    <label class="row mr-5"><span class="mr-5">Your email:</span>
+                    <label class="row mr-5"><span class="mr-5 blue">Your email:</span>
                         <input class=""  type="text" name="_replyto">
                     </label>
-                    <label class="row"><span class="mr-4">Your message:</span>
+                    <label class="row"><span class="mr-4 blue">Your message:</span>
                         <textarea class="" name="message" cols="34" rows="2"></textarea>
                     </label>
                     <button type="submit" class="btn btn-outline-primary mt-3 w-25">Send</button>
@@ -180,16 +172,20 @@
             <hr>
         </section>
         <footer>
-            <a href="#" class="icon brands icon-twitter"><span class="label"></span></a>
-            <a href="#" class="icon brands icon-facebook"><span class="label"></span></a>
-            <ul>
+            <a href="#" class="icon brands icon-twitter"><span class="label blue"></span></a>
+            <a href="#" class="icon brands icon-facebook"><span class="label blue"></span></a>
+            <ul class="float-right">
                 <li>&copy; Copyright</li>
                 <li>Design:
-                    <a href="#">Four wonderful people</a>
+                    <a href="https://github.com/Nikske/frshr">Four wonderful people</a>
                 </li>
                 <li>Demo Images:
                     <a href="http://unsplash.com">Unsplash</a>
                 </li>
+            </ul>
+            <ul>
+                <li><a href="mailto: aaaaaaaah@aaaaaah.com">FRSH&commat;frsh.com</a></li>
+                <li><a href="tel:123-456-7890">049474747474747477</a></li>
             </ul>
         </footer>
 </div>

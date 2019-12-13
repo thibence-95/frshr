@@ -48,6 +48,16 @@ body .page-wrapper {
   margin: auto;
   font-family: "Barlow Condensed", sans-serif;
 }
+body .page-wrapper nav {
+  position: fixed;
+  top: 0;
+  width: 80%;
+  background-color: white;
+  z-index: 2;
+}
+body .page-wrapper nav a {
+  color: #242424;
+}
 body .page-wrapper .logo {
   font-size: 150%;
   color: #242424;
@@ -64,6 +74,8 @@ body .page-wrapper a:link, body .page-wrapper a:active, body .page-wrapper a:vis
 }
 body .page-wrapper footer {
   font-size: 0.7em;
+  width: 50%;
+  margin: auto;
 }
 body .page-wrapper section i {
   font-style: italic;

@@ -8,12 +8,15 @@
 /* Links */
 /* Colour function */
 @import "../css/fontello.css";
+body .page-wrapper section {
+  /* Alternating background colours to change things up */
+}
 body .page-wrapper section .img-fit {
   width: 100%;
   object-fit: cover;
   height: 15em;
 }
-body .page-wrapper section form textarea {
+body .page-wrapper section form label textarea {
   font-size: 0.8em;
   border-radius: 3px;
   resize: none;
@@ -25,7 +28,7 @@ body .page-wrapper section header {
 body .page-wrapper section h2 {
   color: #022f39;
 }
-body .page-wrapper section span {
+body .page-wrapper section .blue {
   color: #3384B3;
 }
 body .page-wrapper section .green {

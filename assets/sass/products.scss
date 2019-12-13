@@ -20,31 +20,25 @@ body {
           }
         }
       }
-
       header {
         padding: 1%;
       }
-
       h2 {
         color: color(navy-blue);
       }
-
-      span {
+      .blue {
         color: color(light-blue);
       }
-
       .green {
         color: color(fresh-green);
       }
-
       .alternate {
         padding: 1%;
       }
-
+      /* Alternating background colours to change things up */
       .alternate:nth-child(even) {
         background-color: color(light-grey);
       }
-
       li {
         font-size: 80%;
         margin-top: 1%;

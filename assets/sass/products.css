@@ -1,0 +1,31 @@
+/* Colour palette */
+/* Media queries */
+/* Small devices (smartphones) */
+/* Small tablets */
+/* Medium devices (tablets, 768px and up) */
+/* Large devices (Laptops and smaller desktops) */
+/* Extra large devices (Desktops 1281 and up) */
+/* Links */
+/* Colour function */
+@import url(../css/fontello.css);
+body .page-wrapper section .img-fit {
+  width: 100%;
+  object-fit: cover;
+  height: 15em; }
+body .page-wrapper section header {
+  padding: 1%; }
+body .page-wrapper section h2 {
+  color: #022f39; }
+body .page-wrapper section span {
+  color: #3384B3; }
+body .page-wrapper section .green {
+  color: #2acb66; }
+body .page-wrapper section .alternate {
+  padding: 1%; }
+body .page-wrapper section .alternate:nth-child(even) {
+  background-color: #EFF2E3; }
+body .page-wrapper section li {
+  font-size: 80%;
+  margin-top: 1%; }
+
+/*# sourceMappingURL=products.css.map */

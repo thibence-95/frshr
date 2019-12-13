@@ -1,0 +1,38 @@
+/* Colour palette */
+/* Media queries */
+/* Small devices (smartphones) */
+/* Small tablets */
+/* Medium devices (tablets, 768px and up) */
+/* Large devices (Laptops and smaller desktops) */
+/* Extra large devices (Desktops 1281 and up) */
+/* Links */
+/* Colour function */
+body section .img-fit {
+  width: 100%;
+  object-fit: cover;
+  height: 15em; }
+body section header {
+  padding: 1%; }
+body section h2 {
+  color: #022f39; }
+body section span {
+  color: #3384B3; }
+body section .green {
+  color: #2acb66; }
+body section .alternate {
+  padding: 1%; }
+body section .alternate:nth-child(even) {
+  background-color: #EFF2E3; }
+body section li {
+  font-size: 80%;
+  margin-top: 1%; }
+
+#diagram {
+  display: flex;
+  align-items: center;
+  padding: 20px 0; }
+  #diagram img {
+    display: block;
+    margin: auto; }
+
+/*# sourceMappingURL=mission.css.map */

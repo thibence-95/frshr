@@ -42,6 +42,16 @@ body {
     width: 80%;
     margin: auto;
     font-family: 'Barlow Condensed', sans-serif;
+    nav {
+      position: fixed;
+      top: 0;
+      width: 80%;
+      background-color: white;
+      z-index: 2;
+      a {
+        color: color(text);
+      }
+    }
     .logo {
       font-size: 150%;
       color: color(text);
@@ -61,6 +71,8 @@ body {
 
     footer {
       font-size: 0.7em;
+      width: 50%;
+      margin: auto;
     }
 
     section {

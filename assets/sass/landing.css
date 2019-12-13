@@ -1,3 +1,32 @@
+
+/*html {
+  height: 100%;
+  overflow: hidden;
+}*/
+.banner {
+  /* box-sizing: border-box;
+   min-height: 40vw;
+   padding: 30vw 0 5vw;
+   width: 100vw;*/
+  text-align: center;
+  height: 100%;
+  background-image: url("https://www.seatoskyair.ca/wp-content/uploads/2016/06/cascades.png");
+  /*actual parallax shizzle*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body h1, body h2, body h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+body, input, select, textarea {
+  color: #242424;
+  font-size: 1.3em;
+=======
 html {
   height: 100%;
   overflow: hidden; }
@@ -80,29 +109,25 @@ body, input, select, textarea {
     color: #242424;
     font-size: 1.3em;
 }
-#cta .inner {
 
-    display: flex;
-    max-width: 45rem;
+#cta .inner {
+  display: flex;
+  max-width: 45rem;
 }
 
 #cta .inner header {
-    order: 1;
-    padding-right: 3em;
-    width: 70%;
-}
-#cta .inner .actions {
-    order: 2;
-    width: 30%;
-}
-.actions li {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 7px;
-    padding-right: 7px;
-    border: solid black 1px;
-    text-align: center;
+  padding-right: 3em;
+  width: 70%;
 }
 
+#cta .inner .actions {
+  width: 30%;
+}
+
+.actions li {
+  text-align: center;
+}
+
+/*# sourceMappingURL=landing.scss.map */
+
+/*# sourceMappingURL=landing.css.map */

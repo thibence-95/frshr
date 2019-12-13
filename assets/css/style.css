@@ -48,6 +48,10 @@ body .page-wrapper {
   margin: auto;
   font-family: "Barlow Condensed", sans-serif;
 }
+body .page-wrapper .logo {
+  font-size: 150%;
+  color: #242424;
+}
 body .page-wrapper hr {
   border-color: #3384B3;
 }

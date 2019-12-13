@@ -1,23 +1,71 @@
-/*
-Errno::ENOENT: No such file or directory @ rb_sysopen - custom.scss
+/* Colour palette */
+/* Media queries */
+/* Small devices (smartphones) */
+/* Small tablets */
+/* Medium devices (tablets, 768px and up) */
+/* Large devices (Laptops and smaller desktops) */
+/* Extra large devices (Desktops 1281 and up) */
+/* Links */
+/* Colour function */
+.page-wrapper {
+  width: 80%;
+  margin: auto;
+  font-family: "Barlow Condensed", sans-serif; }
 
-Backtrace:
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:454:in `read'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:454:in `update_stylesheet'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:294:in `watch'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin.rb:109:in `method_missing'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:358:in `watch_or_update'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
-/usr/local/bin/sass:23:in `load'
-/usr/local/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - custom.scss"; }
+body section h2 {
+  color: #021F26; }
+
+body section span {
+  color: #3384B3; }
+
+h1, h2, h3 {
+  font-weight: bold;
+  text-transform: uppercase; }
+
+body, input, select, textarea {
+  color: #242424;
+  font-size: 1.3em; }
+
+.rounded-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 800%; }
+
+.TextWrap {
+  float: right;
+  margin: 0px;
+  padding: 0; }
+
+body {
+  /* Clearfix (clear floats) */ }
+  body .page-wrapper section .img-fit {
+    width: 100%;
+    object-fit: cover;
+    height: 15em; }
+  body .page-wrapper section header {
+    padding: 1%; }
+  body .page-wrapper section h2 {
+    color: #022f39; }
+  body .page-wrapper section span {
+    color: #3384B3; }
+  body .page-wrapper section .green {
+    color: #2acb66; }
+  body .page-wrapper section .alternate {
+    padding: 1%; }
+  body .page-wrapper section .alternate:nth-child(even) {
+    background-color: #EFF2E3; }
+  body .page-wrapper section li {
+    font-size: 80%;
+    margin-top: 1%; }
+  body * {
+    box-sizing: border-box; }
+  body .column {
+    float: left;
+    width: 33.33%;
+    padding: 3px; }
+  body .row::after {
+    content: "";
+    clear: both;
+    display: table; }
+
+/*# sourceMappingURL=custom.css.map */

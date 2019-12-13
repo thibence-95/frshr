@@ -1,0 +1,96 @@
+@import "libs/vars";
+@import "libs/functions";
+
+.page-wrapper {
+  width: 80%;
+  margin: auto;
+  font-family: "Barlow Condensed", sans-serif;}
+
+body section h2 {
+  color: #021F26;
+}
+body section span {
+  color: #3384B3;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+body, input, select, textarea {
+  color: #242424;
+  font-size: 1.3em;
+}
+.rounded-img{
+  width:300px;
+  height:300px;
+  border-radius:800%;
+
+
+}
+
+.TextWrap{ float:right;
+  margin:0px;
+  padding: 0}
+
+
+
+
+body {
+  .page-wrapper {
+    section {
+      .img-fit {
+        width: 100%;
+        object-fit: cover;
+        height: 15em;
+      }
+
+      header {
+        padding: 1%;
+      }
+
+      h2 {
+        color: color(navy-blue);
+      }
+
+      span {
+        color: color(light-blue);
+      }
+
+      .green {
+        color: color(fresh-green);
+      }
+
+      .alternate {
+        padding: 1%;
+      }
+
+      .alternate:nth-child(even) {
+        background-color: color(light-grey);
+      }
+
+      li {
+        font-size: 80%;
+        margin-top: 1%;
+      }
+    }
+  }
+* {
+  box-sizing: border-box;
+}
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 3px;
+  }
+
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+

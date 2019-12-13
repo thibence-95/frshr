@@ -1,5 +1,5 @@
 /* Colour palette */
-/* Bootstrap's media queries */
+/* Media queries */
 /* Small devices (smartphones) */
 /* Small tablets */
 /* Medium devices (tablets, 768px and up) */
@@ -7,6 +7,7 @@
 /* Extra large devices (Desktops 1281 and up) */
 /* Links */
 /* Colour function */
+@import "../css/fontello.css";
 /* Colour scheme
   text(=black)
   white
@@ -14,34 +15,70 @@
   navy-blue
   light-grey
 */
+/* Icon classes
+  icon-cloud (cloud with fill)
+  icon-cloud-1 (cloud without fill)
+  icon-facebook (facebook f)
+  icon-twitter (bird)
+  icon-menu (three lines)
+*/
 /* Media queries if need be
   s - small devices
   s2 - Small tablets
   m - Medium devices like tablets
   l - Laptops and smaller desktops
   xl - Desktops
-
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media screen and (min-width: 320px) and (max-width: 480px) {
     body {
       background-color:red;
     }
   }
-
 */
-body {
+@font-face {
+  font-family: Icons, sans-serif;
+  src: url("../font/fontello.woff");
+}
+body, input, select, textarea {
+  color: #242424;
+  font-size: 1.3em;
+}
+
+body .page-wrapper {
   width: 80%;
   margin: auto;
   font-family: "Barlow Condensed", sans-serif;
 }
-
-h1, h2, h3 {
+body .page-wrapper nav {
+  position: fixed;
+  top: 0;
+  width: 80%;
+  background-color: white;
+  z-index: 2;
+}
+body .page-wrapper nav a {
+  color: #242424;
+}
+body .page-wrapper .logo {
+  font-size: 150%;
+  color: #242424;
+}
+body .page-wrapper hr {
+  border-color: #3384B3;
+}
+body .page-wrapper h1, body .page-wrapper h2, body .page-wrapper h3 {
   font-weight: bold;
   text-transform: uppercase;
 }
-
-body, input, select, textarea {
-  color: #242424;
-  font-size: 1.3em;
+body .page-wrapper a:link, body .page-wrapper a:active, body .page-wrapper a:visited {
+  text-decoration: none;
+}
+body .page-wrapper footer {
+  font-size: 0.7em;
+  width: 50%;
+  margin: auto;
+}
+body .page-wrapper section i {
+  font-style: italic;
 }
 
 /*# sourceMappingURL=style.css.map */

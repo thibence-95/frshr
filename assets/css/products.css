@@ -13,6 +13,12 @@ body .page-wrapper section .img-fit {
   object-fit: cover;
   height: 15em;
 }
+body .page-wrapper section form textarea {
+  font-size: 0.8em;
+  border-radius: 3px;
+  resize: none;
+  outline: none;
+}
 body .page-wrapper section header {
   padding: 1%;
 }

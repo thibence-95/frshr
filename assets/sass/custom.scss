@@ -6,11 +6,11 @@
   margin: auto;
   font-family: "Barlow Condensed", sans-serif;}
 
-  body section h2 {
-    color: #021F26;
-  }
-  body section span {
-    color: #3384B3;
+body section h2 {
+  color: #021F26;
+}
+body section span {
+  color: #3384B3;
 }
 
 h1, h2, h3 {
@@ -31,7 +31,7 @@ body, input, select, textarea {
 
 .TextWrap{ float:right;
   margin:0px;
-padding: 0}
+  padding: 0}
 
 
 
@@ -75,7 +75,6 @@ body {
       }
     }
   }
-<style>
 * {
   box-sizing: border-box;
 }
@@ -92,7 +91,6 @@ body {
     clear: both;
     display: table;
   }
-</style>
 }
 
-/*# sourceMappingURL=style.css.map */
+

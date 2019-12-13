@@ -2,21 +2,43 @@
 @import "libs/functions";
 
 body {
-  width: 90%;
-  margin: 0;
-  padding: 0;
-}
-#how {
-  text-align: center;
+  section {
+    .img-fit {
+      width: 100%;
+      object-fit: cover;
+      height: 15em;
+    }
+    header {
+      padding: 1%;
+    }
+    h2 {
+      color: color(navy-blue);
+    }
+    span {
+      color: color(light-blue);
+    }
+    .green {
+      color: color(fresh-green);
+    }
+    .alternate {
+      padding: 1%;
+    }
+    .alternate:nth-child(even) {
+      background-color: color(light-grey);
+    }
+    li {
+      font-size: 80%;
+      margin-top: 1%;
+    }
+  }
 }
 
-h1 {
-  padding: 20px 0px;
-  text-align: center;
-}
-
-#farmers {
+#diagram {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
   img {
-    width: 787px;
+    display: block;
+    margin: auto;
   }
 }

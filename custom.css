@@ -1,4 +1,13 @@
-body {
+/* Colour palette */
+/* Media queries */
+/* Small devices (smartphones) */
+/* Small tablets */
+/* Medium devices (tablets, 768px and up) */
+/* Large devices (Laptops and smaller desktops) */
+/* Extra large devices (Desktops 1281 and up) */
+/* Links */
+/* Colour function */
+.page-wrapper {
   width: 80%;
   margin: auto;
   font-family: "Barlow Condensed", sans-serif; }
@@ -22,6 +31,41 @@ body, input, select, textarea {
   height: 300px;
   border-radius: 800%; }
 
-/*# sourceMappingURL=style.css.map */
+.TextWrap {
+  float: right;
+  margin: 0px;
+  padding: 0; }
+
+body {
+  /* Clearfix (clear floats) */ }
+  body .page-wrapper section .img-fit {
+    width: 100%;
+    object-fit: cover;
+    height: 15em; }
+  body .page-wrapper section header {
+    padding: 1%; }
+  body .page-wrapper section h2 {
+    color: #022f39; }
+  body .page-wrapper section span {
+    color: #3384B3; }
+  body .page-wrapper section .green {
+    color: #2acb66; }
+  body .page-wrapper section .alternate {
+    padding: 1%; }
+  body .page-wrapper section .alternate:nth-child(even) {
+    background-color: #EFF2E3; }
+  body .page-wrapper section li {
+    font-size: 80%;
+    margin-top: 1%; }
+  body * {
+    box-sizing: border-box; }
+  body .column {
+    float: left;
+    width: 33.33%;
+    padding: 3px; }
+  body .row::after {
+    content: "";
+    clear: both;
+    display: table; }
 
 /*# sourceMappingURL=custom.css.map */

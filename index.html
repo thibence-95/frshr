@@ -8,16 +8,33 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap" rel="stylesheet">
-    <!--<link href="assets/css/style.css" rel="stylesheet" type="text/css">-->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <!-- Don't forget to correctly link your files -->
     <link href="assets/sass/landing.css" rel="stylesheet" type="text/css">
 </head>
 
 
 <body>
+<!--page-wrapper keeps everything from stretching too wide-->
 <div class="page-wrapper">
-    <!--page-wrapper keeps everything from stretching too wide-->
     <header>
+        <nav class="navbar navbar-expand-lg">
+            <a href="index.html"><span class="icon-cloud-1 logo"><strong>FRSH</strong></span></a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle icon-menu" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="index.html">Home</a>
+                        <a class="dropdown-item" href="products.html">Products</a>
+                        <a class="dropdown-item" href="custom.html">Customization</a>
+                        <a class="dropdown-item" href="mission.html">Mission</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--<header>
         <nav class="navbar navbar-toggleable-md">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
@@ -39,18 +56,17 @@
                 </li>
             </ul>
         </nav>
-    </header>
+    </header>-->
 <main>
     <!--Banner-->
-    <section id="banner">
+    <section class="banner">
         <div>
             <h2>FRSH</h2>
             <p>Free yourself from the shackles of air polution.</p>
         </div>
-        <a href="#one" class="more scrolly">Learn More</a>
     </section>
 
-    <section class="container-fluid w-100">
+    <section id="spotlight-1" class="container-fluid w-100">
         <article class="row my-5 d-flex flex-row alternate">
             <div class="col-md-6">
                 <img src="images/farmerexuma.jpg" class="img-responsive img-fit" alt="bahamian farmer" width="312">
@@ -64,67 +80,35 @@
         </article>
     </section>
 
-        <section class="container-fluid w-100">
+    <section class="container-fluid w-100">
             <article class="row my-5 d-flex flex-row-reverse alternate">
                 <div class="col-md-6">
-                    <img src="images/farmerexuma.jpg" class="img-responsive img-fit" alt="bahamian farmer" width="312">
+                    <img src="images/farmeramazon.jpg" class="img-responsive img-fit" alt="peruvian farmer" width="312">
                 </div>
                 <div class="col-md-6">
                     <div class="text-dark">
-                        <h2>FRSH believes every individual has the right to unpolluted air.</h2>
-                        <p class="lead">Here at FRSH we extract and filter oxygen from clean <em>"air-reas"</em> so you can have the freshest breath of air on the planet at the push of a button and a suck of the toot. </p>
+                        <h2>We support local trade.</h2>
+                        <p class="lead">We employ regional farmers so we can guarantee you'll have a handpicked batch of fresh air every time you inhale.</p>
+                        <span class="blue">Read some of our employees' testimonies</span>
+                        <button type="button" class="btn btn-outline-primary col-md-3" href="mission.html">Testimonies</button>
                     </div>
                 </div>
             </article>
-        </section>
-
-
-    <section id="three" class="wrapper style3 special">
-        <div class="inner">
-            <header class="major">
-                <h2>Join us on our adventure to clean air</h2>
-                <p>Apart from separate products it is possible to aquire a subscription at FRSH.</p>
-            </header>
-            <ul class="features">
-                <li class="icon fa-paper-plane">
-                    <h3>Arcu accumsan</h3>
-                    <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-                </li>
-                <li class="icon solid fa-laptop">
-                    <h3>Ac Augue Eget</h3>
-                    <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-                </li>
-                <li class="icon solid fa-code">
-                    <h3>Mus Scelerisque</h3>
-                    <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-                </li>
-                <li class="icon solid fa-headphones-alt">
-                    <h3>Mauris Imperdiet</h3>
-                    <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-                </li>
-                <li class="icon fa-heart">
-                    <h3>Aenean Primis</h3>
-                    <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-                </li>
-                <li class="icon fa-flag">
-                    <h3>Tortor Ut</h3>
-                    <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-                </li>
-            </ul>
-        </div>
     </section>
-
 
     <section id="cta" class="wrapper style4">
         <div class="inner">
-            <header>
+            <header class="col">
                 <h2>Not that interested yet? Have a look at our prices and gasp.</h2>
                 <p>What makes us unique here at FRSH is that besides offering products, we offer basic subscriptions that strongly enhance the FRSH experience.</p>
             </header>
-            <ul class="actions stacked">
-                <li><button type="button" class="btn btn-outline-primary col-md-3">PRODUCTS</button></li>
-                <li><button type="button" class="btn btn-outline-primary col-md-3">SUBSCRIPTIONS</button></li>
-            </ul>
+            <br>
+            <div class="">
+                <ul class="actions stacked border">
+                    <li><button href="custom.html" type="button" class="btn btn-outline-primary col-md-3">PRODUCTS</button></li>
+                    <li><button href="products.html" type="button" class="btn btn-outline-primary col-md-3">SUBSCRIPTIONS</button></li>
+                </ul>
+            </div>
         </div>
     </section>
 </main>

@@ -1,20 +1,24 @@
-html {
+/*html {
   height: 100%;
   overflow: hidden;
-}
+}*/
 
-body {
-  font-family: "Barlow Condensed", sans-serif;
-}
 
-#banner {
-  box-sizing: border-box;
+
+.banner {
+ /* box-sizing: border-box;
   min-height: 40vw;
   padding: 30vw 0 5vw;
-  position: relative;
-  -webkit-transform-style: inherit;
-  transform-style: inherit;
-  width: 100vw;
+  width: 100vw;*/
+  text-align: center;
+  height: 100%;
+  background-image: url("https://www.seatoskyair.ca/wp-content/uploads/2016/06/cascades.png");
+
+  /*actual parallax shizzle*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -34,24 +38,17 @@ body, input, select, textarea {
 }
 
 #cta .inner header {
-  order: 1;
+  //order: 1;
   padding-right: 3em;
   width: 70%;
 }
 
 #cta .inner .actions {
-  order: 2;
+
   width: 30%;
 }
 
 .actions li {
-  margin-bottom: 5px;
-  margin-top: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 7px;
-  padding-right: 7px;
-  border: solid black 1px;
   text-align: center;
 }
 
